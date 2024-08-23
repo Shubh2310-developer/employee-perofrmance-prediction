@@ -330,7 +330,6 @@ E1001581,25,Female,Medical,Single,Research & Development,Research Scientist,Trav
 E1001582,32,Male,Medical,Married,Sales,Sales Executive,Travel_Rarely,8,3,3,56,4,2,4,1,No,15,3,10,4,4,10,7,0,8,No,3
 E1001584,45,Female,Medical,Single,Research & Development,Manager,Travel_Frequently,25,3,2,83,3,5,2,3,No,22,3,22,4,3,0,0,0,0,No,4
 E1001585,39,Female,Medical,Divorced,Research & Development,Manager,Travel_Rarely,13,4,3,94,2,4,2,6,Yes,13,4,21,4,3,19,9,15,2,No,3
-E1001586,58,Male,Life Sciences,Divorced,Research & Development,Research Scientist,Travel_Rarely,23,4,1,88,3,1,3,1,No,12,4,2,3,3,2,2,2,2,No,2
 E1001587,32,Male,Life Sciences,Married,Research & Development,Manager R&D,Travel_Rarely,7,2,4,79,3,2,3,1,No,18,1,10,3,3,10,4,1,1,Yes,3
 E1001590,36,Female,Technical Degree,Married,Research & Development,Healthcare Representative,Travel_Rarely,10,4,4,63,3,3,3,3,No,12,1,10,0,3,7,7,1,7,No,3
 E1001592,46,Female,Life Sciences,Single,Human Resources,Human Resources,Travel_Rarely,1,2,4,44,3,1,1,6,No,12,3,10,3,4,7,6,5,7,No,3
