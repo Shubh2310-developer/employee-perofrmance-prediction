@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Performance Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Predict Employee Performance</h1>
+        <form action="/predict" method="post">
+            <label for="age">Age:</label>
+            <input type="number" name="age" required>
+
+            <label for="gender">Gender (0=Male, 1=Female):</label>
+            <input type="number" name="gender" required>
+
+            <label for="years_at_company">Years at Company:</label>
+            <input type="number" name="years_at_company" required>
+
+            <label for="job_role">Job Role (encoded):</label>
+            <input type="number" name="job_role" required>
+
+            <label for="performance_rating">Performance Rating (encoded):</label>
+            <input type="number" name="performance_rating" required>
+
+            <label for="education_level">Education Level (encoded):</label>
+            <input type="number" name="education_level" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" step="0.01" name="salary" required>
+
+            <label for="department">Department (encoded):</label>
+            <input type="number" name="department" required>
+
+            <label for="experience_years">Experience Years:</label>
+            <input type="number" name="experience_years" required>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
